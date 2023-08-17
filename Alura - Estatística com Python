@@ -1,0 +1,114 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "toc_visible": true,
+      "authorship_tag": "ABX9TyMDCk8cL5PwJy7lyIYQc5UV",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Elizag14/assistente/blob/main/Alura%20-%20Estat%C3%ADstica%20com%20Python\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import pandas\n",
+        "import numpy\n",
+        "import seaborn\n",
+        "import scipy"
+      ],
+      "metadata": {
+        "id": "OeHxD6V10Ab3"
+      },
+      "execution_count": 2,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print('Versão do pandas -> %s' % pandas.__version__)\n",
+        "print('Versão do numpy -> %s' % numpy.__version__)\n",
+        "print('Versão do seaborn -> %s' % seaborn.__version__)\n",
+        "print('Versão do scipy -> %s' % scipy.__version__)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "G0ccqMA50Ps3",
+        "outputId": "f59494e1-02e4-4aaf-dca3-bb61172668ae"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Versão do pandas -> 1.5.3\n",
+            "Versão do numpy -> 1.23.5\n",
+            "Versão do seaborn -> 0.12.2\n",
+            "Versão do scipy -> 1.10.1\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!pip install pandas=='0.22.0'"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "8gC7r58g0d6-",
+        "outputId": "401e4251-21f9-4ab8-f475-d64e39e44fe8"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Collecting pandas==0.22.0\n",
+            "  Downloading pandas-0.22.0.tar.gz (11.3 MB)\n",
+            "\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m11.3/11.3 MB\u001b[0m \u001b[31m30.2 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
+            "\u001b[?25h  \u001b[1;31merror\u001b[0m: \u001b[1msubprocess-exited-with-error\u001b[0m\n",
+            "  \n",
+            "  \u001b[31m×\u001b[0m \u001b[32mpip subprocess to install build dependencies\u001b[0m did not run successfully.\n",
+            "  \u001b[31m│\u001b[0m exit code: \u001b[1;36m1\u001b[0m\n",
+            "  \u001b[31m╰─>\u001b[0m See above for output.\n",
+            "  \n",
+            "  \u001b[1;35mnote\u001b[0m: This error originates from a subprocess, and is likely not a problem with pip.\n",
+            "  Installing build dependencies ... \u001b[?25l\u001b[?25herror\n",
+            "\u001b[1;31merror\u001b[0m: \u001b[1msubprocess-exited-with-error\u001b[0m\n",
+            "\n",
+            "\u001b[31m×\u001b[0m \u001b[32mpip subprocess to install build dependencies\u001b[0m did not run successfully.\n",
+            "\u001b[31m│\u001b[0m exit code: \u001b[1;36m1\u001b[0m\n",
+            "\u001b[31m╰─>\u001b[0m See above for output.\n",
+            "\n",
+            "\u001b[1;35mnote\u001b[0m: This error originates from a subprocess, and is likely not a problem with pip.\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
